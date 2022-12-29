@@ -1,0 +1,26 @@
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		/*
+		 * Los operadores aritmeticos trabajan con operandos numéricos y obtienen resultadp numérico.
+		 * Pueden aplicarse a numeros enteros (4,5,6,...) o reales (3,14 etc)
+		 * 
+		 * +(suma)
+		 * -(resta)
+		 * *(multiplicacion)
+		 * /(division)
+		 * % (módulo o resto)
+		 */
+		 int a = 25;
+		 int b = 5;
+		 
+		 System.out.println("a + b = "+(a+b));
+		 System.out.println("a - b = "+(a-b));
+		 System.out.println("a * b = "+(a*b));
+		 System.out.println("a / b = "+(a/b));
+		 System.out.println("a % b = "+(a%b));
+
+	}
+
+}

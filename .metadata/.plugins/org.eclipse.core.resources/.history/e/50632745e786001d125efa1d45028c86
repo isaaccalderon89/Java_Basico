@@ -1,0 +1,24 @@
+
+public class OperadoresUnarios {
+
+	public static void main(String[] args) {
+		/*
+		 * Los operadores Unarios trabajan con un solo operando numérico, entero o real.
+		 * 
+		 * ++(suma una unidad)
+		 * --(resta una unidad)
+		 * - (cambio de signo)
+		 */
+		System.out.println("Ahora vamos a ver los operadores Unarios");
+		int a = -25;
+		int b = 36;
+		
+		System.out.println(-a);//Aqui cambia el sigo de la variable 
+		b++;//Estamos indicando que a la variable 'b' le sume una unidad
+		System.out.println(b);
+		b--;
+		System.out.println(b);
+
+	}
+
+}

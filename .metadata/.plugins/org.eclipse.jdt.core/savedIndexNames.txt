@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Todos los WS de desarrollo de aplicaciones web\basicoJava\.metadata\.plugins\org.eclipse.jdt.core
+3998329682.index
+4264187513.index
+2835261029.index
+846224980.index
+1865797976.index

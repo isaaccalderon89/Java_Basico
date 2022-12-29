@@ -1,0 +1,20 @@
+
+public class OperadoresConcatenacion {
+
+	public static void main(String[] args) {
+		/*
+		 * El operador de concatenacion realiza la union de concatenacion de cadena de caracteres.
+		 * 
+		 *  + (concatenacion)
+		 */
+		System.out.println("Estamos viendo un ejemplo de concatenación");
+		
+		String mensaje = "La cripta ";
+		mensaje = mensaje + "mágica";
+		System.out.println(mensaje);
+				
+		
+
+	}
+
+}

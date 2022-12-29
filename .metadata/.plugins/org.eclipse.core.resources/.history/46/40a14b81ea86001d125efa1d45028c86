@@ -1,0 +1,31 @@
+
+public class OperadoresConcatenacion {
+
+	public static void main(String[] args) {
+		/*
+		 * El operador de concatenacion realiza la union de concatenacion de cadena de caracteres.
+		 * 
+		 *  + (concatenacion)
+		 */
+		System.out.println("Estamos viendo un ejemplo de concatenación:");
+		
+		String mensaje = "La cripta ";
+		mensaje = mensaje + "mágica";
+		System.out.println(mensaje);
+		
+		/*
+		 * Java no requiere ningun tipo de conversion cuando operamos con tipos de datos String y tipos de datos
+		 * numericos, ya que realiza la conversion implicita a String
+		 */
+		
+		String mensaje1 = "España ganó la copa mundial de fútbol en el ";
+		int a = 2010;
+		
+		mensaje1 = mensaje+a;
+		System.out.println(mensaje1);
+				
+		
+
+	}
+
+}

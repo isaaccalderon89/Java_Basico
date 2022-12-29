@@ -1,0 +1,24 @@
+
+public class Saludo01 {
+
+	public static void main(String[] args) {
+		
+		//AHORA VAMOS A ANALIZAR EL CODIGO MAS DETENIDAMENTE
+		
+		System.out.println("Hola Mundo Soy Isaac Calderón");
+
+		/*
+		 * En este caso "Saludo01" es el nombre de la clase Java. Una aplicacion pude de contener varias clases
+		 * pero sera la que contenga la "funcion main()" la que pueda arrancar la aplicacion.
+		 * 
+		 * "System.out" hace referencia al flujo de salida de datos de la pantalla.
+		 * 
+		 * "public y static" son modificadores para el metodo.
+		 * 
+		 * La palabra "void" indica que la funcion main no tiene que devolver ningun valor. 
+		 * 
+		 */
+		System.out.println("\n Ahora vamos a ver los elementos indispensables ;-)");
+	}
+
+}
