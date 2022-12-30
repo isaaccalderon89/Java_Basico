@@ -6,6 +6,8 @@ public class OperadoresCondicionales {
 		 * El operador condicional resuleve una expresion u otra en funcion del cumplimiento de una condicion
 		 * 
 		 * ? (condicional)
+		 * 
+		 * Esta operacion estamos sacando un precio que si tiene un valor superio de 50 se le descuenta un 5% o un 10%
 		 */
 		
 		System.out.println("Estamos viendo el operador condicional");
