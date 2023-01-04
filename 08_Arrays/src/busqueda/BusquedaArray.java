@@ -41,6 +41,11 @@ public class BusquedaArray {
 			System.out.println("no encontrado");
 		else
 			System.out.println("Encontrado en posición: "+i);
+		
+		/*
+		 * La expresion "nombre[i].equals(buscado)" compara la cadena situada en la posicion de i del array con el 
+		 * contenido de la variable buscado.
+		 */
 	}
 	
 }
