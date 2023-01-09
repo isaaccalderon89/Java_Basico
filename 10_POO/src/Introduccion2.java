@@ -39,9 +39,43 @@ public class Introduccion2 {
 		 * 1. IMPLEMENTACIÓN DE LA FUNCIÓN: donde se desarrollan las instrucciones necesarias para llevar a cabo la tarea. 
 		 * 2. INTERFAZ DE LA FUNCIÓN: sistema de llamada a la función. Como usuarios, para realizar la llamada o inovación, solo nos interesa 
 		 * saber los parámetros de entrada requeridos y el valor que obtendremos, no los detalles de implementación.
+		 * 
+		 * DISTINCIÓN ENTRE PARAMETRO Y ARGUMENTO
+		 * --------------------------------------
+		 * 
+		 * Las funciones son un conjunto de líneas de código que realizan una determinada tarea cuando son invocadas o llamadas. 
+		 * También se denominan subrutinas. 
+		 * Los métodos o funciones pueden recibir los valores necesarios para realizar las tareas que tienen encomendadas. Estos valores se pasan
+		 * a través de los parámetros. 
+		 * A menudo se confunden los conceptos de parámetro y argumento, pero en realida hay una diferencia. 
+		 * 
+		 * 		*Los parámetros están definidos en la cabecera del método o función. 
+		 * 		*Los argumentos aparecen en la llamada al método o función. 
+		 *      *Los argumentos son enviados para ser recibidos por los parámetros de la función. 
+		 *      
+		 * VALORES DE RETORNO
+		 * ------------------
+		 * A menudo, el objetivo de una función es obtener el resultado de algún cálculo y la función debe ser capaz de devolver dicho resultado. 
+		 * El formato general de un función Java es: 
+		 * 
+		 * 		modificadores tipoRetorno nombreFunción(parámetros){
+		 * 	}
+		 * Donde tipoRetorno es el tipo de resultado que devuelve la función. 
+		 * Si la función debe devolver un resultado está obligada a utilizar una sentencia return para relaizar el retorno. La sentencia return, además de retornar el valor,
+		 * finaliza la ejecución de la función devolviendo el control al punto de la llamada.
+		 * 
+		 * SOBRECARGA DE MÉTODOS
+		 * ---------------------
+		 *La sobrecarga de métodos es un sistema que permite diferentes implementaciones para un mismo método, aumentando así la versatilidad.
+		 *VER EJEMPLO EN LA CLASE miCoche().
+		 *
+		 *SOBRECARGA DE LOS CONSTRUCTORES
+		 *-------------------------------
+		 *VER EJEMPLO DE LA CLASE miCoche().
 		 */
-
+		
 	}
+	
 
 }
 
