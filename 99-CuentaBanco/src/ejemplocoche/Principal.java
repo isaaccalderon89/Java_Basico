@@ -1,7 +1,9 @@
 package ejemplocoche;
 
 public class Principal {
-
+	/*
+	 * El método main es un método estático, por lo que no reuiqere objeto para ser invocado, pertenece a la clase, no al objeto. 
+	 */
 	public static void main(String[] args) {
 		
 		//Coche miCoche = new Coche("5544PJK", "Ford", "Fiesta", "rojo", 0);

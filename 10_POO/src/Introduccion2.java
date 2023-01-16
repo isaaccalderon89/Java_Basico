@@ -72,6 +72,26 @@ public class Introduccion2 {
 		 *SOBRECARGA DE LOS CONSTRUCTORES
 		 *-------------------------------
 		 *VER EJEMPLO DE LA CLASE miCoche().
+		 *
+		 *ATRIBUTOS DEL OBJETO Y ATRIBUTOS DE LA CLASE 
+		 *--------------------------------------------
+		 *En este apartado veremos los miembros de la clase de tipo STATIC. Para ello volveremos al ejemplo de los triángulos. 
+		 *Es posible crear atributos o variables que pertenezcan a la clase y no a objeto; estas variables se declaran con la palabra static.
+		 *
+		 *Los atributos estáticos (miembros de la clase y no del objeto) deben ser invovados con el nombre de la clase y no del objeto. 
+		 *
+		 *Metodos estáticos y atributos estáticos: Desde un método estático no se puede acceder a las propiedades del objeto. Piensa que los métodos estáticos 
+		 *pertenecen a la clase, no a ningún objeto concreto, por eso no tiene sentido que vayan a acceder a las propiedades. Los métodos estáticos tienen que seguir
+		 *estas reglas: 
+		 *
+		 *	1. Un método estático no puede utilizar la palabra This(objeto actual).
+		 *	2. un método estático no puede acceder a las propiedades del  objeto (variables de instancia de clase)
+		 *  3. Un método estático no puede acceder a métodos que no sean estáticos. 
+		 *  
+		 *Un detalle muy importante sobre los métodos estáticos es que pueden ser invocados sin necesidad de crear ningún objeto. 
+		 *
+		 *	
+		 *El método main es un método estático, por lo que no reuiqere objeto para ser invocado, pertenece a la clase, no al objeto. (Ver ejemplo
 		 */
 		
 	}
